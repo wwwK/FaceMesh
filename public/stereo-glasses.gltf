@@ -1,0 +1,138 @@
+{
+  "asset": {
+    "generator": "Khronos glTF Blender I/O v1.1.45",
+    "version": "2.0"
+  },
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "name": "polySurface11.002",
+      "rotation": [
+        0.00617061136290431,
+        -0.7070798277854919,
+        0.7070798873901367,
+        0.006170610431581736
+      ],
+      "scale": [
+        0.10554157942533493,
+        0.10554125905036926,
+        0.10554125905036926
+      ],
+      "translation": [
+        0.5014467239379883,
+        0,
+        0
+      ]
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ],
+      "name": "blinn3",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.8211337327957153,
+          0.8211337327957153,
+          0.8211337327957153,
+          1
+        ],
+        "metallicFactor": 0.30000001192092896,
+        "roughnessFactor": 0.800000011920929
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Mesh.004",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TEXCOORD_0": 2
+          },
+          "indices": 3,
+          "material": 0
+        }
+      ]
+    }
+  ],
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 2913,
+      "max": [
+        10.24524211883545,
+        0.23678041994571686,
+        1.7414758205413818
+      ],
+      "min": [
+        -0.043120384216308594,
+        -6.511699199676514,
+        -1.3957804441452026
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 2913,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 2913,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5123,
+      "count": 6966,
+      "type": "SCALAR"
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 34956,
+      "byteOffset": 0
+    },
+    {
+      "buffer": 0,
+      "byteLength": 34956,
+      "byteOffset": 34956
+    },
+    {
+      "buffer": 0,
+      "byteLength": 23304,
+      "byteOffset": 69912
+    },
+    {
+      "buffer": 0,
+      "byteLength": 13932,
+      "byteOffset": 93216
+    }
+  ],
+  "buffers": [
+    {
+      "uri": "stereo-glasses_data.bin",
+      "byteLength": 107148
+    }
+  ]
+}
