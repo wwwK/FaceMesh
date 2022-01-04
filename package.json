@@ -22,7 +22,9 @@
     "vue-router": "^4.0.12"
   },
   "devDependencies": {
+    "@babel/types": "^7.16.7",
     "@originjs/vite-plugin-commonjs": "^1.0.1",
+    "@types/node": "^17.0.6",
     "@types/three": "^0.135.0",
     "@vitejs/plugin-vue": "^1.2.3",
     "@vue/compiler-sfc": "^3.0.5",

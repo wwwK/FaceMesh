@@ -1,5 +1,5 @@
 <template>
-  <span style="position: absolute; z-index: 10; left: 0; top: 0;">face {{ faceOn ? 'on' : 'off' }}</span>
+  <span class="info">face {{ faceOn ? 'on' : 'off' }}</span>
   <video id="video" width="1" height="1"></video>
   <canvas id="canvas"></canvas>
   <canvas id="coords"></canvas>
@@ -102,5 +102,11 @@ export default defineComponent({
   z-index: 0;
   display: none;
   /* object-fit: fill; */
+}
+.info {
+  position: absolute;
+  z-index: 10;
+  left: 0;
+  top: 0;
 }
 </style>
