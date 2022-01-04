@@ -1,5 +1,5 @@
 <template>
-  <span class="info">face {{ faceOn ? 'on' : 'off' }}</span>
+  <span class="info">face {{ faceOn ? 'on' : 'detecting' }}</span>
   <video id="video" width="1" height="1"></video>
   <canvas id="canvas"></canvas>
   <canvas id="coords"></canvas>
@@ -16,7 +16,7 @@ import { init3D } from './three'
 import { drawCoords, initCanvas } from './coords'
 import { Coords3D } from '@tensorflow-models/face-landmarks-detection/dist/mediapipe-facemesh/util'
 
-setWasmPaths('/node_modules/@tensorflow/tfjs-backend-wasm/dist/')
+setWasmPaths('/tfjs-backend-wasm/dist/')
 setThreadsCount(2)
 export default defineComponent({
   setup() {
