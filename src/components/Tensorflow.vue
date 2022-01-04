@@ -16,7 +16,7 @@ import { init3D } from './three'
 import { drawCoords, initCanvas } from './coords'
 import { Coords3D } from '@tensorflow-models/face-landmarks-detection/dist/mediapipe-facemesh/util'
 
-setWasmPaths('/tfjs-backend-wasm/dist/')
+setWasmPaths('/tfjs-backend-wasm/')
 setThreadsCount(2)
 export default defineComponent({
   setup() {
