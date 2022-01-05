@@ -26,7 +26,7 @@
   </div>
   <div class="control-panel">
   </div>
-  <img id="img" src="/facepaint.png" alt="">
+  <img id="img" src="/textures/facepaint.png" alt="">
 </template>
 <script lang="ts">
 import { defineComponent, onMounted } from 'vue'
