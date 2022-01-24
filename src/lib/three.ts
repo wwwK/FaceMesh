@@ -56,7 +56,12 @@ export function init3D(canvas: HTMLCanvasElement, video: HTMLVideoElement) {
   camera.position.set(0, 0, 100)
   camera.lookAt(scene.position)
 
-  const renderer = new THREE.WebGLRenderer({ canvas, alpha: true, antialias: true })
+  const renderer = new THREE.WebGLRenderer({
+    canvas,
+    alpha: true,
+    antialias: true,
+    // logarithmicDepthBuffer: true
+  })
   renderer.setPixelRatio(window.devicePixelRatio)
   renderer.setSize(w, h)
 
