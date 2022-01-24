@@ -19,7 +19,7 @@ const routes: RouteRecordRaw[] = [
   }
 ]
 const router = createRouter({
-  history: createWebHistory(),
+  history: createWebHistory('/FaceMesh'),
   routes
 })
 export default router

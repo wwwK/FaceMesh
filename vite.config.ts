@@ -5,6 +5,7 @@ import { esbuildCommonjs, viteCommonjs } from '@originjs/vite-plugin-commonjs'
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [vue(), viteCommonjs()],
+  base: '/FaceMesh',
   server: {
     host: true,
     // https: true
