@@ -8,7 +8,7 @@ import { Annotations, getRotation, getScale, ModelLoader } from "../helper";
 export function build(loader: GLTFLoader) {
   const zelda = new THREE.Object3D()
   zelda.position.set( 0, 0, 0 )
-  loader.load('/models/genshin_impact_barbara/scene.gltf', (gltf) => {
+  loader.load('./models/genshin_impact_barbara/scene.gltf', (gltf) => {
     gltf.scene.scale.setScalar(60)
     gltf.scene.position.set(0, -1050, -100)
     gltf.scene.rotation.y = Math.PI

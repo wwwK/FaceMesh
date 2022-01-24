@@ -19,7 +19,7 @@ import { Coords3D } from '@tensorflow-models/face-landmarks-detection/dist/media
 import Gallery from './Gallery.vue'
 import { ModelData } from '../lib/helper'
 
-setWasmPaths('/tfjs-backend-wasm/')
+setWasmPaths('./tfjs-backend-wasm/')
 setThreadsCount(2)
 export default defineComponent({
   components: { Gallery },

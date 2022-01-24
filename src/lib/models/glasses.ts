@@ -10,7 +10,7 @@ function buildGlasses(loader: GLTFLoader) {
   glasses.position.set( 0, 0, 0 )
 
   // add frame glb.
-  loader.load('/models/stereo-glasses.glb', (glassesObj) => {
+  loader.load('./models/stereo-glasses.glb', (glassesObj) => {
     glassesObj.scene.scale.set(1.1, 1.1, -1.1)
     glassesObj.scene.position.set(0, 0, 0)
     glasses.add(glassesObj.scene)

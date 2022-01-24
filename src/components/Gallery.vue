@@ -21,23 +21,23 @@ export default defineComponent({
     const data: ModelData[] = [
       {
         name: 'facepaint',
-        thumb: '/textures/facepaint.png',
+        thumb: './textures/facepaint.png',
         type: 'texture',
-        path: '/textures/facepaint.png'
+        path: './textures/facepaint.png'
       },
       {
         name: 'cheek',
-        thumb: '/textures/cheek.png',
+        thumb: './textures/cheek.png',
         thumbBg: 'white',
         type: 'texture',
-        path: '/textures/cheek.png'
+        path: './textures/cheek.png'
       },
       {
         name: 'makeup',
-        thumb: '/textures/makeup.png',
+        thumb: './textures/makeup.png',
         thumbBg: 'white',
         type: 'texture',
-        path: '/textures/makeup.png'
+        path: './textures/makeup.png'
       },
       {
         name: 'glasses',

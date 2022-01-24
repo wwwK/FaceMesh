@@ -8,7 +8,7 @@ import { Annotations, getRotation, getScale, ModelLoader } from "../helper";
 export function build(loader: GLTFLoader) {
   const zelda = new THREE.Object3D()
   zelda.position.set( 0, 0, 0 )
-  loader.load('/models/zelda_-_breath_of_the_wild/scene.gltf', (gltf) => {
+  loader.load('./models/zelda_-_breath_of_the_wild/scene.gltf', (gltf) => {
     gltf.scene.scale.setScalar(6)
     gltf.scene.position.set(-30, -920, -100)
     zelda.add(gltf.scene)
